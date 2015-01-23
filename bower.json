@@ -1,0 +1,25 @@
+{
+  "name": "purescript-DOMParser",
+  "author": "Isaac Shapira <fresheyeball@gmail.com>",
+  "private": false,
+  "ignore": [
+    "**/.*",
+    "**/*Test.purs",
+    "node_modules",
+    "bower_components",
+    "tests",
+    "example",
+    "tmp"
+  ],
+  "dependencies": {
+    "purescript-mime": "~0.0.2",
+    "purescript-oo-ffi": "~0.0.5",
+    "purescript-dom": "~0.1.1"
+  },
+  "version": "0.0.0",
+  "devDependencies": {
+    "purescript-mocha": "~0.0.2",
+    "purescript-chai": "*",
+    "purescript-debug-foreign": "~0.0.3"
+  }
+}
